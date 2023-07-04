@@ -1,0 +1,13 @@
+package com.javatechie;
+
+import ...
+
+@SpringBootApplication
+@RestController
+public class DevopsIntegrationApplication {
+
+@GetMapping
+public String message() { return "wellcome to javatechie": }
+public static void main(String[] args) { SpringApplication.run(DevopsIntegrationApplication.class, args); }
+
+}
